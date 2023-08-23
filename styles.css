@@ -1,0 +1,505 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+/* Header styles */
+.header {
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  padding-bottom: 25%;
+
+}
+
+.header-content {
+  
+  padding-bottom: 10%;
+  margin-top: 5%;
+}
+
+.header-content h1{
+
+  font-size: 45px;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+
+.header-content h2{
+
+  font-size: 36px;
+}
+
+
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+.logo {
+
+
+  text-decoration: transparent; /* Remove the underline */
+  color: white; /* Set the text color */
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: orange;
+}
+
+
+
+/* Section styles */
+.section {
+  padding: 5%;
+  background-color:RGB(0, 128, 128)
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+/* Add button styles */
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 5%; /* Adjust as needed */
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #ff6600; /* Adjust the hover color */
+}
+
+
+
+
+
+
+
+
+/* About Section */
+.about-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.about-text {
+  align-items: center;
+  padding-right: 10%;
+  flex: 1;
+}
+
+.about-text h1 {
+  padding-right: 10%;
+  align-items: center;
+  font-size: 36px;
+  margin-bottom: 3%;
+}
+
+.about-text p {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+
+.about-image {
+  max-width: 300px; /* Adjust as needed */
+  margin-left: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Skills Section */
+
+.skills-buttons h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.skills-content {
+ 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 3%;
+  
+  
+}
+
+.skills-image {
+  max-width: 300px; /* Adjust as needed */
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-top: 5%;
+}
+
+.skills-buttons {
+  padding-left: 10%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skills-buttons .skill-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.skills-buttons .skill-button:hover {
+  background-color: orange;
+}
+
+
+
+
+
+
+
+/* Goals Section */
+.goals-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.goals-text {
+  align-items: center;
+  padding-right: 10%;
+  flex: 1;
+}
+
+.goals-text h1 {
+  align-items: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+  margin-bottom: 3%;
+}
+
+.goals-text p {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.goals-image {
+  max-width: 300px; /* Adjust as needed */
+  margin-left: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Jobs Section */
+
+
+.jobs-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.jobs-image {
+  max-width: 300px; /* Adjust as needed */
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-text {
+  padding-left: 25%;
+  padding-right: 5%;
+ 
+  flex: 1;
+}
+
+.jobs-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.jobs-text p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* About Section */
+.about-content img,
+.goals-content img,
+.jobs-content img {
+  float: left;
+  margin-right: 20px;
+  max-width: 300px; /* Adjust as needed */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills-content img {
+
+    float: left;
+    padding-top: 3%;
+    margin-right: 20px;
+    max-width: 300px; /* Adjust as needed */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Ensure container clears floats */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+/* Footer styles */
+.footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.section-divider {
+  width: 100%;
+  height: 30px; /* Adjust the height as needed */
+  background-color: #f0f0f0; /* Adjust the background color as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.divider-line {
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the line as needed */
+  background-color: #333; /* Adjust the line color as needed */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.divider-content {
+  z-index: 2;
+  background-color: #f0f0f0; /* Match the background color of .section-divider */
+  padding: 5px 15px; /* Adjust padding as needed */
+  color: #333; /* Match the line color */
+  font-weight: bold;
+}
+
+
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Adjustments for screens up to 768px wide (e.g., mobile devices) */
+
+    /* Header styles */
+    header {
+        padding: auto;
+    }
+
+    .header-content {
+        text-align: center;
+    }
+
+    /* Navbar styles */
+    .navbar {
+      height: 1%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1%;
+    }
+
+    .nav-links {
+        margin-top: 20px;
+    }
+
+    /* Section styles */
+    .section {
+        padding: 30px;
+    }
+
+    /* About Section */
+    .about-content {
+        flex-direction: column-reverse;
+    }
+
+    .about-image {
+        max-width: 100%; /* Full width on smaller screens */
+        margin: 20px 0;
+    }
+
+    /* Goals and Jobs Sections */
+    .goals-content, .jobs-content {
+        flex-direction: column;
+    }
+
+    .goals-image, .jobs-image {
+        max-width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+
+
+/* Your global styles here */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: none;
+}
+
+.scroll-link {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.arrow-up {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+}
+
+
+
+
+
+form {
+  padding-top: 6%;
+  
+  color: white;
+  text-align: center;
+}
+
+form h1{
+  font-size: 50px;
+  padding-bottom: 5%;
+}
+
+#input {
+
+  margin: auto;
+  width: 50%;
+  border: 5px solid green;
+  padding: 10px;
+  margin-right: 5%;
+ 
+}
+
+form label{
+
+padding-right: 1%;
+}
+
+
+
+#submit {
+  text-align: center;
+  width: 10%;
+  background-color: rgb(12, 99, 12);
+  color: white;
+  margin: 0.5em;
+  margin-top: 2%;
+  padding: 1%;
+  border: 5px solid rgb(236, 243, 236);
+  
+}
+
+#submit:hover {
+  cursor: pointer;
+}
